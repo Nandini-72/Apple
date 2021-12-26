@@ -8,7 +8,6 @@
 
 body {
     font-family: "Inter", sans-serif;
-    font-weight: 300;
     overflow-y: scroll;
 }
 /* 
@@ -620,4 +619,27 @@ nav .desktop-nav li a:hover {
 
 /* 
     <------- Navigation CSS Over ------->
+*/
+/* 
+    <------- Information Section Start ------->
+*/
+.information {
+    position: relative;
+    top: 45px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 45px;
+    background: #fff;
+    color: #1d1d1f;
+    margin: 0;
+    font-size: 13px;
+  }
+  
+  .information a{
+    color: #0071e3;
+  }
+/* 
+    <------- Information Section Over ------->
 */
