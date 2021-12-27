@@ -965,6 +965,12 @@ nav .desktop-nav li a:hover {
 }
 /* Mobile Version */
 @media (max-width: 400px) {
+    .giftLogo{
+        height: 70px;
+    }
+    .cardLogo{
+        height: 40px;
+    }
   .top__title--links a {
     font-size: 10px;
   }
@@ -972,7 +978,7 @@ nav .desktop-nav li a:hover {
     width: 6px;
   }
   .top__title h1 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .top__title h3 {
@@ -983,8 +989,6 @@ nav .desktop-nav li a:hover {
   .top__title h4 {
     font-size: 8px;
   }
-  /* .top__title {
-  } */
   .hero {
     height: 25.2rem;
     background-size: auto 25.6rem;
@@ -993,7 +997,7 @@ nav .desktop-nav li a:hover {
     border-top: 0.6rem solid #fff;
     border-bottom: 0.6rem solid #fff;
     position: relative;
-    bottom: 4rem;
+    bottom: 5rem;
   }
   .hero1 {
     height: 30.2rem;
