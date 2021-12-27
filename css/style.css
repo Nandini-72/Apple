@@ -792,7 +792,7 @@ nav .desktop-nav li a:hover {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  bottom: 13rem;
+  bottom: 14.5rem;
   padding: 3rem;
 }
 
@@ -1016,4 +1016,26 @@ nav .desktop-nav li a:hover {
     position: relative;
     bottom: 10rem;
   }
+}
+.grid-section {
+    margin: 1em;
+    position: relative;
+    bottom: 12rem;
+}
+
+.grid-section .row>div {
+    padding: 0;
+}
+
+.grid-section .row>div>img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: .5em;
+}
+
+
+@media (max-width: 720px) {
+    .grid-section {
+        margin: .5em;
+    }
 }
