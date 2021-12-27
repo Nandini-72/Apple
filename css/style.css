@@ -965,12 +965,12 @@ nav .desktop-nav li a:hover {
 }
 /* Mobile Version */
 @media (max-width: 400px) {
-    .top__title--links a{
-        font-size: 10px;
-    }
-    .top__title--links a img {
-        width: 6px;
-      }
+  .top__title--links a {
+    font-size: 10px;
+  }
+  .top__title--links a img {
+    width: 6px;
+  }
   .top__title h1 {
     font-size: 15px;
   }
