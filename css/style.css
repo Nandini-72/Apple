@@ -778,6 +778,89 @@ nav .desktop-nav li a:hover {
   height: 70px;
   padding: 10px;
 }
+/* The section */
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  bottom: 10.5rem;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+}
+.grid-item-one {
+  background: url("../img/section4/col1/iphoneLarge.jpg");
+  background-size: auto 40.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-two {
+  background: url("../img/section4/col2/mackbookLarge.jpg");
+  background-size: auto 40.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.grid-item-three {
+  background: url("../img/section4/col6/watch.jpg");
+  background-size: auto 40.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-four {
+  background: url("../img/section4/col3/homemini.jpg");
+  background-size: auto 40.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-five {
+  background: url("../img/section4/col4/airpodsLarge.jpg");
+  background-size: auto 40.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-six {
+  background: url("../img/section4/col5/swan.jpg");
+  background-size: auto 40.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-one .top__title{
+  position:relative;
+  top: -0.3rem;
+}
+.grid-section .top__title .heading{
+  font-size: 2.7rem;
+}
+.grid-item-one .top__title .heading,
+.grid-item-six .top__title .heading{
+  color: #fff;
+}
+.grid-item-one .top__title .sub-heading{
+  color: #fec2eb;
+}
+.grid-section .top__title--links a{
+  font-size: 17px;
+  text-decoration: none;
+}
+.grid-section .grid-item-two .top__title,
+.grid-section .grid-item-four .top__title{
+  position: relative;
+  top: -13rem;
+}
+.grid-section .grid-item-five .top__title,
+.grid-section .grid-item-six .top__title{
+  position: relative;
+  top: 15rem;
+}
+.grid-item-six .top__title .heading{
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  font-weight: 300;
+}
 /* 
     <------- Middle Section Over ------->
 */
@@ -792,7 +875,7 @@ nav .desktop-nav li a:hover {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  bottom: 14.5rem;
+  bottom: 14rem;
   padding: 3rem;
 }
 
@@ -919,6 +1002,55 @@ nav .desktop-nav li a:hover {
   .top__title h4 {
     font-size: 10px;
   }
+    /* The section */
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  max-width: 100vw;
+}
+.grid-item-one {
+  background: url("../img/section4/col1/iphoneSmall.jpg");
+  background-size: auto 20.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-two {
+  background: url("../img/section4/col2/mackbookSmall.jpg");
+  background-size: auto 20.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.grid-item-three {
+  background: url("../img/section4/col6/watchS.jpg");
+  background-size: auto 20.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-four {
+  background: url("../img/section4/col3/homeminiS.jpg");
+  background-size: auto 20.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-five {
+  background: url("../img/section4/col4/airpodsSmall.jpg");
+  background-size: auto 20.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.grid-item-six {
+  background: url("../img/section4/col5/swanS.jpg");
+  background-size: auto 20.6rem;
+  background-position: top;
+  background-repeat: no-repeat;
+}
   footer a {
     display: none;
   }
@@ -962,15 +1094,40 @@ nav .desktop-nav li a:hover {
     position: relative;
     bottom: 10rem;
   }
+  .grid-section .top__title .heading{
+    font-size: 1.3rem;
+  }
+  .grid-section .top__title--links a{
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .grid-section .top__title--links{
+    position: relative;
+    bottom: 0.5rem;
+  }
+  .grid-item-one .top__title{
+    position:relative;
+    top: 1.2rem;
+  }
+  .grid-section .grid-item-two .top__title,
+  .grid-section .grid-item-four .top__title{
+    position: relative;
+    top: -3rem;
+  }
+  .grid-section .grid-item-five .top__title,
+.grid-section .grid-item-six .top__title{
+  position: relative;
+  top: 7rem;
+}
 }
 /* Mobile Version */
 @media (max-width: 400px) {
-    .giftLogo{
-        height: 70px;
-    }
-    .cardLogo{
-        height: 40px;
-    }
+  .giftLogo {
+    height: 70px;
+  }
+  .cardLogo {
+    height: 40px;
+  }
   .top__title--links a {
     font-size: 10px;
   }
@@ -1017,25 +1174,4 @@ nav .desktop-nav li a:hover {
     bottom: 10rem;
   }
 }
-.grid-section {
-    margin: 1em;
-    position: relative;
-    bottom: 12rem;
-}
 
-.grid-section .row>div {
-    padding: 0;
-}
-
-.grid-section .row>div>img {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    margin: .5em;
-}
-
-
-@media (max-width: 720px) {
-    .grid-section {
-        margin: .5em;
-    }
-}
